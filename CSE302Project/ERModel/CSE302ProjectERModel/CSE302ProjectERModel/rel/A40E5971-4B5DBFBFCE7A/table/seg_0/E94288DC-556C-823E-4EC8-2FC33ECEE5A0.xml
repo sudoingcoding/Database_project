@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E94288DC-556C-823E-4EC8-2FC33ECEE5A0" name="Faculty">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>DF8C77AE-6E49-577C-73C6-DD0AAD381F84</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FacultyID" id="FD21E959-D274-FEEE-903C-7019AC81474E">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>7033BDA3-3083-0952-55F8-4F8B0564D97B</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department" id="C064D3A2-9425-EF04-87F1-2A2794BC55CF">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>A7594612-025C-27AC-3124-C9F7B3FE6FBF</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Designation" id="1C6A7A1B-A1A9-FC74-2872-BFA1158E4EFA">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>92586F89-E47A-8272-CF0E-03DFB820DBEC</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BloodGroup" id="1983A2B3-DAA2-46E3-5501-D1AF7FA604AE">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>A6EE695D-62EA-D467-171E-F409C374A319</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TshirtSize" id="EA46C625-915E-E64F-0F78-298975B263CF">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>18B7859D-1453-F13E-489A-3A7BBB979C37</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_UserID" id="2E52C473-3CAC-10F3-D7BD-EBAE392CE689">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>0639197E-56DF-DECF-A10F-C6BEDE0E1FEF</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4B7279D-F7CC-4944-BAB7-F3A871A1BF1B" referredColumn="16F504E7-E0AE-D7D5-53D5-F7619BFCCC04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B6394B9-CC97-2339-A56D-802056EF6F8D" name="Faculty_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>2C95A3C5-7A3F-A6DA-8075-5189075DB65F</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD21E959-D274-FEEE-903C-7019AC81474E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F37E67D4-423B-DC25-0D35-EB3975FBE4E5" name="Faculty__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BFF708C8-683D-86F2-D6FF-E18831B36B95</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2E52C473-3CAC-10F3-D7BD-EBAE392CE689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="637A4FD0-151B-34C4-31C0-AC84BC2AE88C" name="Faculty_User_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<generatorID>BFF708C8-683D-86F2-D6FF-E18831B36B95</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E52C473-3CAC-10F3-D7BD-EBAE392CE689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

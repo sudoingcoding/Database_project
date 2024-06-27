@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95D6B44B-F390-963B-3C4E-0B8A09A55B93" name="Event">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>43469FB4-DA81-D0C6-2C4D-A65CEFAB49A3</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EventID" id="D3510D8E-A235-AEF0-7DF0-EEE7D6096611">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>3B30D813-A60E-8C58-BF15-C5C44694BBAE</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title" id="0BA2584D-B15A-6D8F-3E2F-49D7D6F1446E">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>872DA63D-A87D-C094-1D74-4C15CCD2BAF9</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="EDCC97F0-F6BA-4A7E-6FF9-E3C359E42D9E">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>8934B0F2-C55B-4B68-BDA6-361DD3E5965C</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Category" id="A8E0B8FE-2350-551E-A451-B03863FCBCBE">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>ABD380EB-E9AA-0D43-A761-B2664F1A1F38</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location" id="40F625E4-51DB-AB10-A70C-5D982A89C2F6">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>26F54484-83CB-6A58-A92A-C3406077B2F1</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="A7F6515A-3139-2DED-00CE-5642E827B40B">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>37FE7F02-574C-B837-2A9B-ED96E60622CC</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Time" id="36F9C9B7-CB8F-727E-C6EB-E03A7355A823">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>8FDF8B6B-6F5B-C12B-C4C1-43A87F6F5746</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacity" id="443758C1-F2DF-EDEA-6DEC-F827A04E8F2A">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>0AF5BAD3-5D9C-E8B8-C002-15BB85AB83EC</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="8CEBEF23-B9D0-CEF7-069A-93CE2641E22A">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>5A74B0F7-8BA9-7C5C-31AD-24B5EDB35C70</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Banner" id="276D5FD9-24C9-84B9-5E70-BF2E61888375">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>82CF8CDA-D642-2BD4-D5B1-F9005E2E2DD6</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9B0BA24-217F-3477-D4EE-D3FAF167FED7" name="Event_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>212FDD72-8BA6-5FB2-6E95-19BED9DE50D9</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3510D8E-A235-AEF0-7DF0-EEE7D6096611"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADF4D5F1-455A-AF5A-B3DC-343655E58A83" name="Participant">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:44:00 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ParticipantID" id="813A5C24-EFF9-8116-C9F1-6B5ACC20E197">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:46:07 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="University" id="9B7E92D3-BA73-50E1-4137-39CC5F686676">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:46:44 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BloodGroup" id="8F2D6D75-BBF1-78BD-5D41-3884CB95EA78">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:50:23 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TshirtSize" id="666DFEC1-4951-652F-35BC-C846DC10964F">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:49:34 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserID" id="0CE8EA15-8776-BD8D-025D-4490C24D11BB">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 05:38:44 UTC</createdTime>
+<generatorID>DBED8250-4261-3FE3-DFA4-F3E238882527</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<referedAttribute>4ED2B739-0DD4-3DC8-8F4F-8C949EFFBE9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F17C9B2-E118-9179-B7CA-CADEAB35D2DC" name="Participant PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:46:41 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>813A5C24-EFF9-8116-C9F1-6B5ACC20E197</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

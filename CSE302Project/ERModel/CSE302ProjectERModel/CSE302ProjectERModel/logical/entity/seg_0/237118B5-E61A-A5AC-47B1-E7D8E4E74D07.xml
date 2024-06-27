@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="237118B5-E61A-A5AC-47B1-E7D8E4E74D07" name="Admin">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:32:07 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AdminID" id="09D853A8-5CEC-C54B-3FE5-B2D3EAD66DF9">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 05:12:31 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Designation" id="BA669AC6-5DCC-55BE-E65D-51261CB57F53">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:32:37 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserID" id="835B3B62-0840-FCC4-54EB-4A98B6F0F130">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 05:36:29 UTC</createdTime>
+<generatorID>E70103E6-AD15-70F6-DE1C-D5F665DB4F3C</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<referedAttribute>4ED2B739-0DD4-3DC8-8F4F-8C949EFFBE9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="676EE03E-C43D-CFB3-FD9D-7D8AC19F6848" name="Admin PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 05:12:56 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>09D853A8-5CEC-C54B-3FE5-B2D3EAD66DF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

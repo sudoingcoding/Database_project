@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CSE302ProjectERModel" id="8699AC8F-EF64-FB74-4E60-901C3749ACEB" version="3.5">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:18:14 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8699AC8F-EF64-FB74-4E60-901C3749ACEB</designId>
+</OSDM_Design>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="104EB278-2FA8-921A-4504-881F08185E0F" name="EventOrganizes">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Organizer_OrganizerID" id="2970EBE7-568A-E2E4-FD32-7AB0CC8FC636">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEBB1CB6-38FA-B156-9E7A-0091FA8C58A0" referredColumn="23F3EFE6-15CB-7A8C-787A-3033D53D7E32"/>
+</associations>
+</Column>
+<Column name="Event_EventID" id="AD39C165-6370-C20F-1ACF-4BF9FB11CED3">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85261D60-64FF-3457-B726-D785855ED597" referredColumn="D3510D8E-A235-AEF0-7DF0-EEE7D6096611"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56BD5559-BDA0-F384-5090-C16C62857EC8" name="EventOrganizes_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2970EBE7-568A-E2E4-FD32-7AB0CC8FC636"/>
+<colUsage columnID="AD39C165-6370-C20F-1ACF-4BF9FB11CED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F766E7C-C7C0-551B-C44C-57294BD10D5A" name="EventOrganizes_Organizer_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<generatorID>E9262AC8-7C8C-1820-56C2-12F80DE6903C</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2970EBE7-568A-E2E4-FD32-7AB0CC8FC636"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EA71BF2-E6F5-7D8C-DD80-959027872915" name="EventOrganizes_Event_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<generatorID>E9262AC8-7C8C-1820-56C2-12F80DE6903C</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD39C165-6370-C20F-1ACF-4BF9FB11CED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

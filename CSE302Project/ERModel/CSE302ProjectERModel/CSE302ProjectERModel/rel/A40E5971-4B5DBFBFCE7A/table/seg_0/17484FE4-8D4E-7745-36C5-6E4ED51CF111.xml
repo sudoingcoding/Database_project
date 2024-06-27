@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17484FE4-8D4E-7745-36C5-6E4ED51CF111" name="User">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>B3635031-3FF2-3728-4AD3-D26453FDF384</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserID" id="16F504E7-E0AE-D7D5-53D5-F7619BFCCC04">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>4ED2B739-0DD4-3DC8-8F4F-8C949EFFBE9D</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserName" id="1B32FD91-6FAA-61E2-CE39-39DE5F716FE6">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>822D21BF-4F8D-6F63-5317-72914A028640</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="A0A6ECA0-8FDD-737F-95E3-E2832559F01C">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>187FC397-F880-6D68-AF5B-18488E3D08E7</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="DBEC1C22-E70C-ACAB-7E16-648B7AADB576">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>4066AFD7-1EEA-F5BB-0861-C3E7EFE79AF4</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Role" id="2986900F-4DDF-1DA6-B6EF-63D7CE218B4E">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>F84E6C0E-A342-EDFE-A3A5-25F964946608</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profile_Picture" id="090D61DE-E96E-114A-89EA-AA4228E21164">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>00F8737A-38DC-0892-FD7D-DE2DA7FB1920</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Notification_Settings" id="12EC2E45-2F63-7A33-8207-56097F9D6A20">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>A0E00637-A2B4-0598-584F-EE40AAE6ADCB</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_History" id="95B8CFCB-8B05-B383-D429-9D43731B6845">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>8C161F6A-4CB9-0A40-98AB-C28929ED2445</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NotificationSettings_NotificationSettingsID" id="668A0F7B-D302-CA6B-0072-A010C456981C">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>FC2A5904-0843-986B-C876-C08464DCA507</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Settings_SettingsID" id="A9E38BC4-7A7B-C406-E0BD-5B30A80BD84D">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:15:39 UTC</createdTime>
+<generatorID>ABB19530-8811-4E61-D032-24110EF2B22B</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F20C38A5-18F0-5F38-1A62-A633655B9816" referredColumn="E3277383-73CB-B3AF-E92E-BBD79853CC8C"/>
+</associations>
+</Column>
+<Column name="Settingsv1_SettingsID" id="AECF8104-A374-B737-19DD-C02B514BD048">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>A5768EBC-EE84-6EB2-F968-B0745546DE42</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99E2DAE1-2377-6E12-5FBD-B6597B3C7EA4" name="User_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>BACC6B10-D8DC-AA20-89F8-570C974E7C1D</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16F504E7-E0AE-D7D5-53D5-F7619BFCCC04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AD429BD-AF1C-4BED-3782-63C939C26C64" name="User__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C32A60AA-2858-32B4-22CA-884636043372</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="668A0F7B-D302-CA6B-0072-A010C456981C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C0C4340-494F-0D8B-F083-12D0367D0930" name="User__IDXv1">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:17:49 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C32A60AA-2858-32B4-22CA-884636043372</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A9E38BC4-7A7B-C406-E0BD-5B30A80BD84D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B1A3FE9-A805-91E5-D2DD-C56FF31BDF7F" name="User__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>110072D7-F96E-9317-49E6-C465C5ED0E4A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AECF8104-A374-B737-19DD-C02B514BD048"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AAC184C-D07E-D81E-D726-CC3050E5645E" name="User_Settings_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:17:49 UTC</createdTime>
+<generatorID>C32A60AA-2858-32B4-22CA-884636043372</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9E38BC4-7A7B-C406-E0BD-5B30A80BD84D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

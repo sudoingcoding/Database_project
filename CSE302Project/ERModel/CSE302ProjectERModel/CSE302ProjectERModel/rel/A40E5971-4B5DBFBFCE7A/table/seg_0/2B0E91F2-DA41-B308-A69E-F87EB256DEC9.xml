@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B0E91F2-DA41-B308-A69E-F87EB256DEC9" name="Settings">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>AD103911-63CE-1FFF-FE79-2FEF2D847CF8</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SettingsID" id="E3277383-73CB-B3AF-E92E-BBD79853CC8C">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>91C6EA1B-ED67-9F42-26B3-72778AEF735A</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EventReminders" id="7E760468-8156-7B45-734C-7BC06B425A4F">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>85F37A3A-DA89-43B8-6F27-043533748DBB</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReminderTime" id="D8E80468-B197-7015-C46F-6D6CF92305C8">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>D7356EBE-6F19-0905-87C7-E87712BCA2E0</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmailNotification" id="BE49A418-5F97-393A-ED0C-07068426C7EC">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>564CBF40-AFF0-9752-0A1D-B7084E52819E</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EventCategories" id="471F3E72-97C2-EE9C-3227-6DE0DC025860">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>A26CC18F-F748-538B-0611-312A87EA4105</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Message" id="38C35B6C-0D99-06BA-C6A2-49189F65CDF9">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>A4A48CD1-6014-0A56-576B-705F9E944A40</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preference" id="29D89B8E-47F0-AD50-38D1-90E4B62B8107">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>75553896-100C-6AFA-C61C-351AFFB17319</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_UserID" id="4E03DE8D-DF5D-A87B-2775-CEFE4AF79178">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>FC00FC7A-4D80-A0CF-A997-B028E3A96704</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78265608-8157-4BAB-8E12-F4D2D2BEA5AF" referredColumn="16F504E7-E0AE-D7D5-53D5-F7619BFCCC04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E21C0D7-A634-6F49-C829-E28228EAA80F" name="Settings_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>9F2259D6-47CD-A13B-67E9-00CFA102920D</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3277383-73CB-B3AF-E92E-BBD79853CC8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2648186-CA1D-CA1E-53D1-D6623BC6FDB5" name="NotificationSettings__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C32A60AA-2858-32B4-22CA-884636043372</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4E03DE8D-DF5D-A87B-2775-CEFE4AF79178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E204A197-1419-A8B5-FD0C-E1165FE41395" name="Settings_User_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:17:49 UTC</createdTime>
+<generatorID>C32A60AA-2858-32B4-22CA-884636043372</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E03DE8D-DF5D-A87B-2775-CEFE4AF79178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65EB62BD-D507-618D-9872-C266C216B7C2" name="FeedBack">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>1B3D5621-705C-8234-9341-F43E42E0765C</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FeedbackID" id="0CB0E3D7-8431-D88D-499A-E4A51E00B9EC">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>A0AC5EED-9A1A-9023-51AB-832E27460236</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VenueRating" id="C2110F8A-BCFC-097A-75E1-462AC5AAF7B8">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>64548F99-A4A9-DAC6-EB23-764D0D8DEFD3</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FoodRating" id="15ED3ACB-D741-773A-B9B1-D7F8AA90C777">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>5B4B90ED-67BC-A3F6-BC06-D6E3BF2B5364</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ServiceRating" id="5F936DDA-7DA0-4E4B-9E19-C7BD0E4AAFD5">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>FF49BC6D-B7EC-2C53-CC2B-D32404A4193A</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OverallRating" id="B5C369CF-E47F-1C36-0BF4-6E5ECCB8738E">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>564D12A0-9042-D01F-D07C-6C2D182BFC72</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comments" id="6D91C5A4-6FA1-1E77-BCA3-C31D8A0A9459">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>B111E360-BC07-96C0-100F-DC86421A91B1</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_RegistrationID" id="691F5992-EF78-15B2-F46B-74753BACDA8F">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>3577DB1C-A520-2031-C65B-113756AD9355</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1A8AC52-EDC4-E939-3230-A9C423E2B7F4" referredColumn="44B887D5-E22C-6AA3-8096-10C9CBDFB907"/>
+</associations>
+</Column>
+<Column name="Event_EventID" id="6BE44785-A77F-2A79-D4EB-BFF92F8CF282">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>DA08F202-1744-4009-837F-2411344EAE68</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94261A50-B334-A0CD-09F4-A4B65072867D" referredColumn="D3510D8E-A235-AEF0-7DF0-EEE7D6096611"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DBDB544-D60C-17DE-BC4A-6E4970BC53C9" name="FeedBack_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>778C8A68-224F-3B05-E504-A26CE54B5F57</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CB0E3D7-8431-D88D-499A-E4A51E00B9EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4E20E4A-70EA-8DD2-1439-6927E66D0A0B" name="FeedBack__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C0B0C686-B8F1-364D-1762-C4F0AF4A146F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="691F5992-EF78-15B2-F46B-74753BACDA8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65D80722-E7F4-E9E7-0695-173D11155410" name="FeedBack_Event_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<generatorID>1370432D-5121-9DE8-40C4-E63DDF08585B</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BE44785-A77F-2A79-D4EB-BFF92F8CF282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71DA8E02-6B93-F0C7-27A0-3E17E47DBFAA" name="FeedBack_Registration_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<generatorID>C0B0C686-B8F1-364D-1762-C4F0AF4A146F</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="691F5992-EF78-15B2-F46B-74753BACDA8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

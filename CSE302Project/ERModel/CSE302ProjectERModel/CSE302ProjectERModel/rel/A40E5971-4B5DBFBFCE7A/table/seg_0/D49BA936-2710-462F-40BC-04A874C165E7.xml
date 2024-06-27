@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D49BA936-2710-462F-40BC-04A874C165E7" name="Overviewv2">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>8B36F65E-B8C6-25BD-7CD2-20DFD0B480C4</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OverviewID" id="10935DD4-6DB4-A202-2FB9-6A1D1D004DF0">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>F3703BBA-B295-9B8D-68F9-A7580FE96ACC</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TotalRegistered" id="F9474A60-0C05-D68E-BAF8-02211F8FB044">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>6D011C10-29DE-8E10-3B53-066772975480</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TotalAmount" id="3F05A51C-AFB7-3531-E069-08AC01D8E84F">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>ECAA922B-72A9-7937-76A2-D0812C6D129B</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_RegistrationID" id="0088BACC-551C-FE7E-7DB4-50497449694C">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>05CE2D0D-9B72-2A15-9856-321886123398</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E7383D1-62B4-418F-E9CE-1489D09DD6A4" name="Overviewv1_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>9220763F-35CC-752D-3145-E7E5C716BC8D</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10935DD4-6DB4-A202-2FB9-6A1D1D004DF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79772FD1-AF29-7BA9-3F46-7C56DFA47645" name="Overviewv1__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CE820DBA-D8AB-0EC5-501D-F0A8751FF1E6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0088BACC-551C-FE7E-7DB4-50497449694C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

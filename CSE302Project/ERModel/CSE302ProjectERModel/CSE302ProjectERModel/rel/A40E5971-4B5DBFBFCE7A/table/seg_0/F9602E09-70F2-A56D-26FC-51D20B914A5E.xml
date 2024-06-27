@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9602E09-70F2-A56D-26FC-51D20B914A5E" name="Settingsv2">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>78DE812A-2767-C235-1319-01F6312F4C47</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SettingsID" id="A5A61B2C-BC1E-A388-2ECD-EA0B3B0F72D1">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>B46B4E7E-45CE-1316-5574-7829A749F381</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EventReminders" id="3B9B8C7A-57C6-C4D2-D53A-C5E0ED6BCEF0">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>0C5B1343-9888-39FE-54A8-716A755D55D5</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReminderTime" id="3187E435-B19E-6628-DE49-6ECEEAABB370">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>C2DB655A-EF22-FE98-0F53-AD1E7ECF597A</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmailNotification" id="EA7F6EBF-1372-7003-E73F-E67CDA03D8E5">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>CD1C9483-CA22-6894-2C54-6AF90B668691</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EventCategories" id="3173FD06-0E09-9513-ECBF-4CD9AA15EC3B">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>3683B1F9-28DA-9FD3-3B64-8E09C1B82644</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Message" id="467A2716-D3C5-96FB-B17B-3A0214CB77E9">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>452AA0E8-7537-58EE-D6D4-0C56F5A6BF0F</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preference" id="F801AC39-9D9D-812A-4F93-FB769B8ECF6F">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>F2F8BBBC-79D1-9CF0-C7C1-37CC9F9D4FF7</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_UserID" id="4F1AFA19-E5C7-AFF9-7958-E6CA92997FFF">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>387976D5-7B46-1DE0-6A77-605BA8240CB0</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4C4B9CF-817D-D5BC-3DBE-5BE0C3549682" name="Settingsv1_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>1FC5183F-B0AA-969F-FF79-D0CD1D9B7B97</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5A61B2C-BC1E-A388-2ECD-EA0B3B0F72D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D49DA7C3-FB75-3C7B-C90C-0673CA9C655E" name="Settingsv1__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>110072D7-F96E-9317-49E6-C465C5ED0E4A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4F1AFA19-E5C7-AFF9-7958-E6CA92997FFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

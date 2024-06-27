@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" mainViewID="FCD08EF6-C2EE-7E9B-F21F-7A3ABE3B466B">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 03:19:01 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

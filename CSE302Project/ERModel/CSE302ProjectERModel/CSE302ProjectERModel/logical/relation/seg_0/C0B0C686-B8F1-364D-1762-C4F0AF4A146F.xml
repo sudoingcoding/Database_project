@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UserFeedback" directorySegmentName="seg_0" id="C0B0C686-B8F1-364D-1762-C4F0AF4A146F">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 06:04:51 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<sourcePk>B5A7AC86-6FE3-FB94-A652-B9BBA12A892B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5B66713A-7343-4FDE-ACE0-B33211305B66</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1B3D5621-705C-8234-9341-F43E42E0765C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

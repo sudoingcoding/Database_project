@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BudgetApproval" directorySegmentName="seg_0" id="F0E7BD41-A6FE-103D-DD85-9F5CB1231B4C">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 06:05:34 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<sourcePk>676EE03E-C43D-CFB3-FD9D-7D8AC19F6848</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>237118B5-E61A-A5AC-47B1-E7D8E4E74D07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F32CF3A3-9638-1A4E-AAC3-81E2156A56C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

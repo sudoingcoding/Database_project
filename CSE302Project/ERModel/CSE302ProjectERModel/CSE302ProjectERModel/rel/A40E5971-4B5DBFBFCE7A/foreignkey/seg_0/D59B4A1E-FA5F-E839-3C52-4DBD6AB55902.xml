@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D59B4A1E-FA5F-E839-3C52-4DBD6AB55902" containerWithKeyObject="EC62CE53-2039-7180-A33C-96907577056A" localFKIndex="0C15CAEF-9B12-EC45-9C0B-C636ADB7832E" name="Budget_Admin_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>F0E7BD41-A6FE-103D-DD85-9F5CB1231B4C</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<referredTableLongName>Admin</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B25BAD5B-D3A2-AAC9-F703-34FD6DE5BAF6</referredTableID>
+<keyObject>4CECF763-6A71-E42E-F10B-AF5D9B11D020</keyObject>
+<referredKeyID>4CECF763-6A71-E42E-F10B-AF5D9B11D020</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AdminID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

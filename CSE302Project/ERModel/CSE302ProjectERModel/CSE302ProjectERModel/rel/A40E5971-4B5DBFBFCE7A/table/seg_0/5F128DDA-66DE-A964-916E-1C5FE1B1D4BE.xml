@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F128DDA-66DE-A964-916E-1C5FE1B1D4BE" name="Attendence">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>922DB1D0-CB25-1D6D-76B4-6F99AA3B3716</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AttendenceID" id="A1656CB4-283D-2563-B119-C884B2527521">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>DB27F7A8-0380-5D5B-89D5-1E39FB35AAAA</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CheckInTime" id="339383E2-A95F-C1CE-F297-CE06F505B4B4">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>4AF0109C-5023-5933-B314-F8FCDB4F3223</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Registration_RegistrationID" id="32B76CCC-C245-8539-2293-439902A057EB">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>B922771D-C30A-7004-3B72-2ADFEE0CAEC7</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71A8FD02-2F1A-CF41-FAC0-980350B81244" referredColumn="44B887D5-E22C-6AA3-8096-10C9CBDFB907"/>
+</associations>
+</Column>
+<Column name="Event_EventID" id="17F348D7-999B-8FC5-6A6F-7211193B65DA">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>63920302-3F9D-2293-7A67-3041B8138036</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="037C28CD-1AD1-1927-1E65-E21CF9CC9B9D" referredColumn="D3510D8E-A235-AEF0-7DF0-EEE7D6096611"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8CEAB7D-9887-85C3-94F8-FBFDC03D26BD" name="Attendence_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>C378643B-F3F8-1ED5-B695-4B4E099A8AE0</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1656CB4-283D-2563-B119-C884B2527521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60B1FF8B-6CCB-967A-1974-DDA10076EE42" name="Attendence__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A8C1FE20-A73C-6244-BFD7-73138B866262</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="32B76CCC-C245-8539-2293-439902A057EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="284B84E2-365B-186B-384B-F5F04B36850A" name="Attendence_Event_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>2F9FDEA3-F8F9-5596-DF5C-8FB11E7C3547</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17F348D7-999B-8FC5-6A6F-7211193B65DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19E8B297-A8ED-BF57-7043-45159D5F69C9" name="Attendence_Registration_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<generatorID>A8C1FE20-A73C-6244-BFD7-73138B866262</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32B76CCC-C245-8539-2293-439902A057EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

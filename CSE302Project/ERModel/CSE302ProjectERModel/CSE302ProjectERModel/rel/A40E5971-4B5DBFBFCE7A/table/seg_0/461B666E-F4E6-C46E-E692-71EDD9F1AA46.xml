@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="461B666E-F4E6-C46E-E692-71EDD9F1AA46" name="Organizer">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>E089401D-D439-8DB1-59B0-6C796208DDF1</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrganizerID" id="23F3EFE6-15CB-7A8C-787A-3033D53D7E32">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>618F1A26-399B-BD3F-1F2B-9AEEB15E0BEC</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrganizerName" id="6DE33A3D-421A-D47D-9C17-31CB06414F6F">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>ED79C52C-48A4-D90F-AE3E-65C76C6D4E2D</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNumber" id="029E8F91-7088-D007-97D0-80B7DB09337B">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>BABBE68F-A9BB-B980-D2E1-A7073526BA29</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="President" id="6C9488E3-9B2D-9E1E-7EDA-9AB122055BA1">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>0D282D82-EF6F-3D27-2BE8-205F809B1372</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_UserID" id="E2E87BCD-AFB2-0BA2-D486-2C409B9B5139">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:08:56 UTC</createdTime>
+<generatorID>8C8F6D08-30E8-F73A-EC4D-0143447E23D0</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="684C5B8F-A3B7-960F-B705-0594BBEC2194" referredColumn="16F504E7-E0AE-D7D5-53D5-F7619BFCCC04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CB40976-0CCA-E7C8-6152-1597CD5A81E6" name="Organizer_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>B450702E-635D-C913-46C4-47F1A2C772FB</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23F3EFE6-15CB-7A8C-787A-3033D53D7E32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB8BAD5C-3C13-0AA8-55EA-A085A6D66AF2" name="Organizer__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:08:56 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>81DDB5E4-03C7-588B-822D-87EE2802ABB3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E2E87BCD-AFB2-0BA2-D486-2C409B9B5139"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CCD1EA7-2420-A28C-D74F-96E742697393" name="Organizer_User_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:08:56 UTC</createdTime>
+<generatorID>81DDB5E4-03C7-588B-822D-87EE2802ABB3</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2E87BCD-AFB2-0BA2-D486-2C409B9B5139"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RegUpdates" directorySegmentName="seg_0" id="CE820DBA-D8AB-0EC5-501D-F0A8751FF1E6">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:53:34 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<engineerTo>
+<item key="A40E5971-6E0D-1D63-8F04-4B5DBFBFCE7A" value="true"/>
+</engineerTo>
+<sourcePk>B5A7AC86-6FE3-FB94-A652-B9BBA12A892B</sourcePk>
+<targetPk>9220763F-35CC-752D-3145-E7E5C716BC8D</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5B66713A-7343-4FDE-ACE0-B33211305B66</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8B36F65E-B8C6-25BD-7CD2-20DFD0B480C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,231 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="366CEDB3-4F6F-DDEC-58E0-DC6A7F17FC3E" name="Registration">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>5B66713A-7343-4FDE-ACE0-B33211305B66</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RegistrationID" id="44B887D5-E22C-6AA3-8096-10C9CBDFB907">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>5E4DC89A-B85A-0990-9623-9D560CF520B6</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="61EF7BAF-16E0-4ACD-F1E1-5B0D46B0D044">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>CF5F8B46-BDDD-CF31-2E96-48E87A073F79</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="F1C2D920-EAA4-92D2-5D1B-71F92183064C">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>ACF626DA-1DC6-1AAC-8B2E-BD2D63643099</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNum" id="E3041A2C-4D7A-0C8D-B44F-168817394781">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>352EF1A7-0E5F-C79F-8E87-B5212054B0A3</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentAmount" id="E15AF2FB-B5D4-43A1-7CD9-141ED2C11512">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>4FA5FA87-3840-05D3-6F1C-BDC0C6C1DCE0</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PaymentOption" id="FB2D0772-B0D2-204A-1B01-20E228193978">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>69DE94FE-BAE8-A089-F167-0444EBD8C84F</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_UserID" id="24F6821D-FD49-4A1C-7D30-22DE3D1DC998">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>EE09C449-02C1-141D-2806-9B68680DBD3E</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="014A19D7-D1B8-12FA-62B5-41852C93B778" referredColumn="16F504E7-E0AE-D7D5-53D5-F7619BFCCC04"/>
+</associations>
+</Column>
+<Column name="Event_EventID" id="DE71F8F0-7D1A-82EC-C8C9-D4BD772DDDD7">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>252966EC-BD65-356E-749B-5C21F00DDFBD</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4475B5A-4DCF-8D65-0097-D9131A63D6AF" referredColumn="D3510D8E-A235-AEF0-7DF0-EEE7D6096611"/>
+</associations>
+</Column>
+<Column name="Overview_OverviewID" id="DA6DBEAA-2188-FCF0-E039-2890BB7A6C10">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:08:56 UTC</createdTime>
+<generatorID>5508B3DF-6019-A7BB-73A8-766BDC21BFDB</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B16FA4D-431A-3E82-D08D-FE07E6BA9509" referredColumn="37EA8EC4-FA11-6E57-F4D3-EA590664ECAD"/>
+</associations>
+</Column>
+<Column name="Overviewv1_OverviewID" id="D780EF0D-FF87-C9EA-7976-B962DF640260">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<generatorID>85DFC96F-1D7C-59A1-4E86-C4E50B30E9EC</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F885D75D-8EBA-9D68-4411-B28FAB31D137" name="Registration_PK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:35 UTC</createdTime>
+<generatorID>B5A7AC86-6FE3-FB94-A652-B9BBA12A892B</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44B887D5-E22C-6AA3-8096-10C9CBDFB907"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC26F242-0645-73E3-6CAD-580EBF3F6DDD" name="Registration__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>69A1AC26-C394-6AA2-3885-B0E2936B2628</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="6D399D77-608A-76D9-CC32-F3E6AECA775B" name="Registration__IDXv1">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>013B7848-C6A0-1088-D030-771EBED78056</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="24F6821D-FD49-4A1C-7D30-22DE3D1DC998"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CF45734-303B-1505-64B0-F8902BA7E05B" name="Registration__IDXv2">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:08:56 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>69A1AC26-C394-6AA2-3885-B0E2936B2628</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DA6DBEAA-2188-FCF0-E039-2890BB7A6C10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84F6BDA9-1326-3B91-9041-2D1F008FAB65" name="Registration__IDX">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 10:12:55 UTC</createdTime>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CE820DBA-D8AB-0EC5-501D-F0A8751FF1E6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D780EF0D-FF87-C9EA-7976-B962DF640260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED5E15FE-C70F-9702-732D-DC1747EF6437" name="Registration_Event_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<generatorID>0F4BE1C1-4C71-6D43-49F6-6F164CFA0642</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE71F8F0-7D1A-82EC-C8C9-D4BD772DDDD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F01CBCBB-AAE6-41FE-A3AC-ADEC09809F87" name="Registration_User_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 08:48:36 UTC</createdTime>
+<generatorID>013B7848-C6A0-1088-D030-771EBED78056</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24F6821D-FD49-4A1C-7D30-22DE3D1DC998"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D333756D-381B-CD1A-62D4-14439251DD1A" name="Registration_Overview_FK">
+<createdBy>user</createdBy>
+<createdTime>2024-05-24 09:17:49 UTC</createdTime>
+<generatorID>69A1AC26-C394-6AA2-3885-B0E2936B2628</generatorID>
+<ownerDesignName>CSE302ProjectERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA6DBEAA-2188-FCF0-E039-2890BB7A6C10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
